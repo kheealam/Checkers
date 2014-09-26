@@ -1,0 +1,93 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<asmv1:assembly xsi:schemaLocation="urn:schemas-microsoft-com:asm.v1 assembly.adaptive.xsd" manifestVersion="1.0" xmlns:asmv3="urn:schemas-microsoft-com:asm.v3" xmlns:dsig="http://www.w3.org/2000/09/xmldsig#" xmlns="urn:schemas-microsoft-com:asm.v2" xmlns:asmv1="urn:schemas-microsoft-com:asm.v1" xmlns:asmv2="urn:schemas-microsoft-com:asm.v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:co.v1="urn:schemas-microsoft-com:clickonce.v1">
+  <asmv1:assemblyIdentity name="SampleCheckers.exe" version="1.0.0.0" publicKeyToken="626f041d0aa571b0" language="neutral" processorArchitecture="msil" type="win32" />
+  <application />
+  <entryPoint>
+    <assemblyIdentity name="SampleCheckers" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+    <commandLine file="SampleCheckers.exe" parameters="" />
+  </entryPoint>
+  <trustInfo>
+    <security>
+      <applicationRequestMinimum>
+        <PermissionSet Unrestricted="true" ID="Custom" SameSite="site" />
+        <defaultAssemblyRequest permissionSetReference="Custom" />
+      </applicationRequestMinimum>
+      <requestedPrivileges xmlns="urn:schemas-microsoft-com:asm.v3">
+        <!--
+          UAC Manifest Options
+          If you want to change the Windows User Account Control level replace the 
+          requestedExecutionLevel node with one of the following.
+
+        <requestedExecutionLevel  level="asInvoker" uiAccess="false" />
+        <requestedExecutionLevel  level="requireAdministrator" uiAccess="false" />
+        <requestedExecutionLevel  level="highestAvailable" uiAccess="false" />
+
+         If you want to utilize File and Registry Virtualization for backward 
+         compatibility then delete the requestedExecutionLevel node.
+    -->
+        <requestedExecutionLevel level="asInvoker" uiAccess="false" />
+      </requestedPrivileges>
+    </security>
+  </trustInfo>
+  <dependency>
+    <dependentOS>
+      <osVersionInfo>
+        <os majorVersion="5" minorVersion="1" buildNumber="2600" servicePackMajor="0" />
+      </osVersionInfo>
+    </dependentOS>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="preRequisite" allowDelayedBinding="true">
+      <assemblyIdentity name="Microsoft.Windows.CommonLanguageRuntime" version="2.0.50727.0" />
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="preRequisite" allowDelayedBinding="true">
+      <assemblyIdentity name="System.Core" version="3.5.0.0" publicKeyToken="b77a5c561934e089" language="neutral" processorArchitecture="msil" />
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="preRequisite" allowDelayedBinding="true">
+      <assemblyIdentity name="WindowsBase" version="3.0.0.0" publicKeyToken="31bf3856ad364e35" language="neutral" processorArchitecture="msil" />
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="SampleCheckers.exe" size="1424896">
+      <assemblyIdentity name="SampleCheckers" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+        <dsig:DigestValue>sNhZyPeWmIPZ/oh0+06bSCRUXu4=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <file name="Resources\King_Black.png" size="36067">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+      <dsig:DigestValue>yHjXQaWjrfd1MGDR38Pg4opyavk=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Resources\King_Red.png" size="39662">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+      <dsig:DigestValue>Mm4cnQvEpGVGUtW3/bxmrMX8UjQ=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="SampleCheckers.exe.config" size="77">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+      <dsig:DigestValue>w7WNgu5MxCvL4DAgISBxgwmhDzU=</dsig:DigestValue>
+    </hash>
+  </file>
+<publisherIdentity name="CN=KHIZAR\Khizar Alam" issuerKeyHash="1af3d4e728845ddb04954c79c1ecb6c82c7321fd" /><Signature Id="StrongNameSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha1" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" /><DigestValue>LSoOXUBpvmCC5b4shbJSx9xKocU=</DigestValue></Reference></SignedInfo><SignatureValue>fSEkZKpmsxeA3iNNDuSXgSuhZsPUG96vzGvT+pkiPNLg7VB05EVAM7dgEqDsnuQITIUlqV/xRt4MqWHNIEvfYBdcyfjHGr/Qe1v2rtmRJkQCWP0XBLCkOcDK1yQq365N/cmopszt6ZW65dj2syUmx6GRrfnHNZqXEjukUKiB5QQ=</SignatureValue><KeyInfo Id="StrongNameKeyInfo"><KeyValue><RSAKeyValue><Modulus>qq6JzGJUnTWMXIi9aUCBzyyv7t0MjunGhFwAQDsy1haPGXDGRqW41R7bo0xIfjBOSA5C/v1Y/6Gl6uveSEWmG0HM7nsbV25OSJ+grge8mSOnLV126k9fl5qaHoUy0DxyLuCTjkriy1xrLd/1N1D2Hpp5BIOP7wUrBBVMyZitUGU=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><msrel:RelData xmlns:msrel="http://schemas.microsoft.com/windows/rel/2005/reldata"><r:license xmlns:r="urn:mpeg:mpeg21:2003:01-REL-R-NS" xmlns:as="http://schemas.microsoft.com/windows/pki/2005/Authenticode"><r:grant><as:ManifestInformation Hash="c5a14adcc752b2852cbee58260be69405d0e2a2d" Description="" Url=""><as:assemblyIdentity name="SampleCheckers.exe" version="1.0.0.0" publicKeyToken="626f041d0aa571b0" language="neutral" processorArchitecture="msil" type="win32" /></as:ManifestInformation><as:SignedBy /><as:AuthenticodePublisher><as:X509SubjectName>CN=KHIZAR\Khizar Alam</as:X509SubjectName></as:AuthenticodePublisher></r:grant><r:issuer><Signature Id="AuthenticodeSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha1" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" /><DigestValue>WzwW4XAUkZyJPBTfNEd2Zo0CjAo=</DigestValue></Reference></SignedInfo><SignatureValue>Mj3XpaAmsYKWIJqizBIBSIzyyR1qJ1M4BnpbdztdWFrwMjVtu/SQW5uIgRZ49c5kV5WZoF83pd86XgLfmSbSLDBGRK1jUY8kiyZyaJ2sxESTtEIDfJI2VYiFGR4gBVhj70ou8OUkgJeQjacc7fnL0sjPDQIeEwyiwThD/P+kr1A=</SignatureValue><KeyInfo><KeyValue><RSAKeyValue><Modulus>qq6JzGJUnTWMXIi9aUCBzyyv7t0MjunGhFwAQDsy1haPGXDGRqW41R7bo0xIfjBOSA5C/v1Y/6Gl6uveSEWmG0HM7nsbV25OSJ+grge8mSOnLV126k9fl5qaHoUy0DxyLuCTjkriy1xrLd/1N1D2Hpp5BIOP7wUrBBVMyZitUGU=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><X509Data><X509Certificate>MIIB2TCCAUagAwIBAgIQ7BsZcD3n5IhNuwqNFlvEOzAJBgUrDgMCHQUAMC8xLTArBgNVBAMeJABLAEgASQBaAEEAUgBcAEsAaABpAHoAYQByACAAQQBsAGEAbTAeFw0xMDA0MjcxMzM4MDdaFw0xMTA0MjcxOTM4MDdaMC8xLTArBgNVBAMeJABLAEgASQBaAEEAUgBcAEsAaABpAHoAYQByACAAQQBsAGEAbTCBnzANBgkqhkiG9w0BAQEFAAOBjQAwgYkCgYEAqq6JzGJUnTWMXIi9aUCBzyyv7t0MjunGhFwAQDsy1haPGXDGRqW41R7bo0xIfjBOSA5C/v1Y/6Gl6uveSEWmG0HM7nsbV25OSJ+grge8mSOnLV126k9fl5qaHoUy0DxyLuCTjkriy1xrLd/1N1D2Hpp5BIOP7wUrBBVMyZitUGUCAwEAATAJBgUrDgMCHQUAA4GBAIWFhIreDoPKqeVG/aSEU3KIhis4PMfc9VNftaMBGIxPWpxIBPaOkgcnt6/EwnWL88j/zArHX28KkH2pqPYFVcjd8dNabyZvqBP7K9zGQkvcrUpqc2saru566qJVRe2McbuejCQ/f13ZnipWoQuNJhwrcD1tFRTnEwHKnShMUeGf</X509Certificate></X509Data></KeyInfo></Signature></r:issuer></r:license></msrel:RelData></KeyInfo></Signature></asmv1:assembly>
